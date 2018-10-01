@@ -1,0 +1,3 @@
+uuid
+pymongo==3.4.0
+web.py==0.37
