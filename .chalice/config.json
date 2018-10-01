@@ -1,0 +1,26 @@
+{
+    "version": "2.0",
+    "app_name": "projectservice",
+    "stages": {
+        "staging": {
+            "api_gateway_stage": "staging",
+            "environment_variables": {
+                "environment": "staging",
+                "mongousername": "#GENERAL_MONGO_USERNAME_STAGING",
+                "mongopassword": "#GENERAL_MONGO_PASSWORD_STAGING",
+                "mongohost": "#GENERAL_MONGO_HOST_STAGING",
+                "mongoport": "#GENERAL_MONGO_PORT_STAGING"
+            }
+        },
+        "production": {
+            "api_gateway_stage": "production",
+            "environment_variables": {
+                "environment": "production",
+                "mongousername": "#GENERAL_MONGO_USERNAME_PROD",
+                "mongopassword": "#GENERAL_MONGO_PASSWORD_PROD",
+                "mongohost": "#GENERAL_MONGO_HOST_PROD",
+                "mongoport": "#GENERAL_MONGO_PORT_PROD"
+            }
+        }
+    }
+}

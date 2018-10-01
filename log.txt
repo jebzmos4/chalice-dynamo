@@ -1,0 +1,1 @@
+2018-09-12 16:53:46 INFO     Found credentials in shared credentials file: ~/.aws/credentials
